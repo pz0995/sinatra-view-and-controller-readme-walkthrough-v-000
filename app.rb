@@ -14,6 +14,6 @@ class App < Sinatra::Base
     @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
      erb :friends
 
-
+    <h2><%= @reversed_string %></h2>
   end
 end
